@@ -1,29 +1,30 @@
-<%@ page import="java.util.ArrayList">
-<%@ page import="models.Follower">
     <html>
     <head>
     <link rel="stylesheet" href="/assets/css/Kellys.css">
     <title>
-    "${follower.getName()}"
+        ${follow?follow.getName():"Follower"}
     </title>
     </head>
     <body>
     <div id='rightside'>
-    <h1> "${follower.getName()}" </h1>
-    <g:if "${follower}">
-        <img src="http://cdn2.gamefront.com/wp-content/uploads/2012/05/d3-26.jpg">
-    <g:if/>
-    <g:elseif ${follower.getName().equals("Enchantress")}>
-        <img src="http://vignette1.wikia.nocookie.net/diablo/images/b/bb/Enchantress.jpg/revision/latest?cb=20110513220214">
-    <g:elseif/>
-    <g:elseif ${follower.getName().equals("Templar")}>
-        <img src="http://vignette3.wikia.nocookie.net/diablo/images/0/02/Templar.jpg/revision/latest?cb=20110513220215">
-    <g:elseif/>
-    <g:elseif ${follower.getName().equals("Scoundrel")}>
-        <img src="http://vignette1.wikia.nocookie.net/diablo/images/3/3c/Scoundrel.jpg/revision/latest?cb=20110513220216">
-    <g:elseif/>
+    <h1>
+    ${follow?follow.getName():"Follower"}
+    </h1>
+    <g:if test="${!follow}">
+    <img src="http://cdn2.gamefront.com/wp-content/uploads/2012/05/d3-26.jpg">
+    </g:if>
+    <g:elseif test="${follow.getName().equals('Enchantress')}">
+    <img src="http://vignette1.wikia.nocookie.net/diablo/images/b/bb/Enchantress.jpg/revision/latest?cb=20110513220214">
+    </g:elseif>
+    <g:elseif test="${follow.getName().equals('Templar')}">
+    <img src="http://vignette3.wikia.nocookie.net/diablo/images/0/02/Templar.jpg/revision/latest?cb=20110513220215">
+    </g:elseif>
+    <g:elseif test="${follow.getName().equals('Scoundrel')}">
+    <img src="http://vignette1.wikia.nocookie.net/diablo/images/3/3c/Scoundrel.jpg/revision/latest?cb=20110513220216">
+    </g:elseif>
+
 <div id="lvl">
-<form method="GET" action="/diablofollower">
+<form method="GET" action="/follower">
 <select name="follower">
 <option value="enchantress">Enchantress</option>
 <option value="templar">Templar</option>
@@ -35,14 +36,8 @@
 </div>
     <div id="section">
         <div id="skillsection">
-        <g:each in={follower.getActiveSkills()} var="skill">
-            <div class='skillImages' ><img src='${skill.IMAGE_URL_PREFIX}${skill.getIcon()}.png'>
-                <span><br><b>${skill.getName()}</b>
-                <p>${skill.getLevel()}</p>
-                </div>
-        <g:each/>
-    </div>
         </div>
+    </div>
 </body>
 </html>
 

@@ -1,3 +1,4 @@
+file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.3.RELEASE/43093c137ea9c6d26ca6341e17295c0a6c506dfb/spring-boot-starter-logging-1.2.3.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.3.RELEASE/e4cf4c22717f7e235909088d44eb2cea5a96de37/spring-boot-starter-actuator-1.2.3.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.3.RELEASE/11175f217ac34bdacd6282cd44310f211121e270/spring-boot-autoconfigure-1.2.3.RELEASE.jar
@@ -40,10 +41,10 @@ file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-comm
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-hibernate4/4.0.0.RELEASE/606887edca3152ebc1e2cc77cc1011794adeaa41/grails-datastore-gorm-hibernate4-4.0.0.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/d4b42ed76a166a81dbac613339eed3343be6bd2d/concurrentlinkedhashmap-lru-1.4.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/2f437f37bb265d9f8f1392823dbca12d2bec06d6/jboss-logging-annotations-1.2.0.Beta1.jar
+file:/home/csaroff/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.8.Final/72afcf795dea9d787141fbf665924d634471dcbf/hibernate-core-4.3.8.Final.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar
+file:/home/csaroff/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.1.1/574632c1409a1d8c5f1d3a0879c37ab33240dc3d/asset-pipeline-core-2.1.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails.plugins/fields/2.0.1/40df16577fa541f2869983b868d17b2d666baeda/fields-2.0.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/cglib/cglib/2.2.2/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar
@@ -81,13 +82,13 @@ file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-gsp/3.0.
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.4.3/49c93f6562c2d6c821a80e5d18a83acdd9218a18/groovy-templates-2.4.3.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.6.RELEASE/e1ee19a5359f214d65cc18972df8aba17ce1e423/spring-webmvc-4.1.6.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.1.6.RELEASE/9beaafd3f01cd377e36a2b1a9aed7c2c87111165/spring-context-support-4.1.6.RELEASE.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar
+file:/home/csaroff/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-hibernate-core/4.0.0.RELEASE/eb6edf8493c7e84f688dce388532a87af4908be1/grails-datastore-gorm-hibernate-core-4.0.0.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.0.3.Final/e0fa071d3ced426a05fc1a59d788cb72a1659c3c/hibernate-validator-5.0.3.Final.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/1f9fef7a9fcbb41cc390fc370a291cf30729e094/jboss-transaction-api_1.2_spec-1.0.0.Final.jar
+file:/home/csaroff/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/e84a2122e76f0b6503be78094ddf2108057ac15f/jandex-1.1.0.Final.jar
+file:/home/csaroff/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+file:/home/csaroff/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20141023/b0bc533425f44e34210d4ecb57721db329f0cb30/closure-compiler-v20141023.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-async/3.0.1/7386e506d6cd995f796fbf07b8919ed636886657/grails-async-3.0.1.jar
@@ -125,7 +126,7 @@ file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-jsp/3.0.1/badadc65bd83fdd0ff7bc2ac7df0a1e96ea773b3/grails-web-jsp-3.0.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-mvc/3.0.1/a02af3a1fe7e84f5331114297bcc06fb66cb14f3/grails-web-mvc-3.0.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-sitemesh/3.0.1/4492bc3e3df8916e896fd8c34ac9b2beec0079da/grails-web-sitemesh-3.0.1.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-log4j/7.0.55/1e12baf15e15e713b3dc4353e51b0d7d18e010b8/tomcat-embed-logging-log4j-7.0.55.jar
+file:/home/csaroff/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-log4j/7.0.55/tomcat-embed-logging-log4j-7.0.55.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.1.6.RELEASE/895d8f28e64c0445e3ee9461963406123f06821c/spring-jdbc-4.1.6.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.4.3/4eb65e43585bdf9cc0430abcdc5ac423f70b791d/groovy-sql-2.4.3.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/7.0.55/3d00af6b2e5de5fa2df7bd7c7ec910495c774138/tomcat-jdbc-7.0.55.jar
@@ -140,8 +141,8 @@ file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastor
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.1.6.RELEASE/d5b70acee6ddfab47786c31114c89b895654cb97/spring-orm-4.1.6.RELEASE.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/javax.transaction/jta/1.1/2ca09f0b36ca7d71b762e14ea2ff09d5eac57558/jta-1.1.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-commons-annotations/3.2.0.Final/ce990611448fc2865469e3b68d2fe76b050e3c4f/hibernate-commons-annotations-3.2.0.Final.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar
-file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar
+file:/home/csaroff/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+file:/home/csaroff/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler-externs/v20141023/18aa5ad56d97ab2f6d2451ad08e38673f961f831/closure-compiler-externs-v20141023.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/args4j/args4j/2.0.26/1ebb18ebb3b379a74207d5af4ea7c8338ebd78b/args4j-2.0.26.jar
 file:/home/csaroff/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar

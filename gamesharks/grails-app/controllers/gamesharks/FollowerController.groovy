@@ -19,7 +19,14 @@ class FollowerController{
         System.out.println("Line 19");
         Follower follower = makeServerAPIRequest(params.follower);
         System.out.println("Line 21");
-        [follower:follower]
+        //if(follower==null){
+        //    System.out.println("follower was null");
+        //    render(view:"/error")
+        //}else{
+            println("About to display follower view");
+            render (view:"index", model: [follow: follower])
+        //}
+
     }
     def api(){
         String follower = params.follower;
@@ -27,7 +34,8 @@ class FollowerController{
         if(myFollower!=null){
             render toJsonObject(myFollower);
         }else{
-            render "There is no follower " + follower;
+            render(view:"/error")
+            //render "There is no follower " + follower;
         }
     }
     private static Follower makeServerAPIRequest(String strFollower){
@@ -50,8 +58,9 @@ class FollowerController{
                     is.close();
             } catch (IOException ex) {
                 ex.printStackTrace();
-            } 
+            }
         }
+        System.out.println("about to return diablo follower");
         return diabloFollower;
     }
     private JsonObject toJsonObject(Follower follower){
@@ -62,17 +71,17 @@ class FollowerController{
             .add("realName", follower.getRealName())
             .add("portrait", follower.getPortrait());
         JsonArrayBuilder skills = factory.createArrayBuilder();
-        for(ActiveSkill skill : follower.getActiveSkills()){
-            skills.add(factory.createObjectBuilder()
-                    .add("slug",skill.getSlug())
-                    .add("name",skill.getName())
-                    .add("icon",skill.getIcon())
-                    .add("level",skill.getLevel())
-                    .add("tooltipUrl",skill.getTooltipUrl())
-                    .add("description",skill.getDescription())
-                    .add("skillCalcId",skill.getSkillCalcId()));
-        }
-        tempObj.add("skills", skills);
+        //for(ActiveSkill skill : follower.getActiveSkills()){
+        //    skills.add(factory.createObjectBuilder()
+        //            .add("slug",skill.getSlug())
+        //            .add("name",skill.getName())
+        //            .add("icon",skill.getIcon())
+        //            .add("level",skill.getLevel())
+        //            .add("tooltipUrl",skill.getTooltipUrl())
+        //            .add("description",skill.getDescription())
+        //            .add("skillCalcId",skill.getSkillCalcId()));
+        //}
+        //tempObj.add("skills", skills);
         return tempObj.build();
 
     }
