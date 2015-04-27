@@ -36,8 +36,15 @@
 </div>
     <div id="section">
         <div id="skillsection">
+            <g:if test="${follow}">
+            <g:each  var="skill" in='${follow.getActiveSkills()}'>
+                <div class='skillImages' ><img src='${skill.IMAGE_URL_PREFIX}${skill.getIcon()}.png'>
+                    <span><br><b>${skill.getName()}</b>
+                    <p>${skill.getLevel()}</p>
+                </div>
+            </g:each>
+            </g:if>
         </div>
     </div>
 </body>
 </html>
-

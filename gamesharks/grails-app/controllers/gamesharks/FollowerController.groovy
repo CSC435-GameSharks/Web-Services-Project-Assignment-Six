@@ -71,17 +71,17 @@ class FollowerController{
             .add("realName", follower.getRealName())
             .add("portrait", follower.getPortrait());
         JsonArrayBuilder skills = factory.createArrayBuilder();
-        //for(ActiveSkill skill : follower.getActiveSkills()){
-        //    skills.add(factory.createObjectBuilder()
-        //            .add("slug",skill.getSlug())
-        //            .add("name",skill.getName())
-        //            .add("icon",skill.getIcon())
-        //            .add("level",skill.getLevel())
-        //            .add("tooltipUrl",skill.getTooltipUrl())
-        //            .add("description",skill.getDescription())
-        //            .add("skillCalcId",skill.getSkillCalcId()));
-        //}
-        //tempObj.add("skills", skills);
+        for(ActiveSkill skill : follower.getActiveSkills()){
+            skills.add(factory.createObjectBuilder()
+                    .add("slug",skill.getSlug())
+                    .add("name",skill.getName())
+                    .add("icon",skill.getIcon())
+                    .add("level",skill.getLevel())
+                    .add("tooltipUrl",skill.getTooltipUrl())
+                    .add("description",skill.getDescription())
+                    .add("skillCalcId",skill.getSkillCalcId()));
+        }
+        tempObj.add("skills", skills);
         return tempObj.build();
 
     }
