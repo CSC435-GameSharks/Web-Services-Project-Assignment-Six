@@ -8,29 +8,15 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-//import play.db.ebean.Model;
-//import play.data.validation.*;
-
-
-//@Entity
-//@Table (name = "items")
 public class Item{
-	private static final long serialVersionUID = -1755646676202909709L;
 	public static final String IMAGE_URL_PREFIX="http://media.blizzard.com/d3/icons/items/large/";
-	//@Id
 	private String id;
-	//public static Finder<String, Item> find
-    //= new Model.Finder<>(String.class, Item.class);
-	//@Constraints.Required
-	private String name; 	
-	//@Constraints.Required
+	private String name;
 	private String icon;
-	//@Constraints.Required
 	private String displayColor;
-	//@Constraints.Required
 	private String tooltipParams;
-	//@Constraints.Required
 	private LinkedHashMap<String, Double> rawAttributes;
+    //static hasMany = [rawAttributes:Double]
 	public Item(JsonObject objIn){
 		this.id=objIn.getString("id");
 		this.name=objIn.getString("name");
@@ -42,7 +28,10 @@ public class Item{
         rawAttributes = new LinkedHashMap<String, Double>();
         if(jsonRawAttributes!=null){
         	for(String rawAttributesKey : jsonRawAttributes.keySet()){
-            	rawAttributes.put(rawAttributesKey.split("#")[0], jsonRawAttributes.getJsonObject(rawAttributesKey).getJsonNumber("max").doubleValue());
+                Double attributeValue =
+                jsonRawAttributes.getJsonObject(rawAttributesKey).getJsonNumber("max").doubleValue();
+                System.out.println("attribute = " + attributeValue);
+            	rawAttributes.put((rawAttributesKey.split("#")[0]), attributeValue);
         	}
     	}
 	}
